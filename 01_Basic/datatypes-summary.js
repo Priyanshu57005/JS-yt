@@ -32,4 +32,33 @@ const myfunction = function(){
     console.log("Hello world");;
 }
 
-console.log(typeof myfunction);
+//console.log(typeof myfunction);
+
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++
+
+//stack(Primitive), heap(Non-Primitive)
+//stack gives copy of memory
+//Heap gives reference of original value
+
+let myYoutubename = "Youtubedotcom"
+
+let anothername = myYoutubename
+anothername = "facebookdotcom"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl.com"
+}
+
+let userTwo = userOne
+
+userTwo.email = "Priyanshu@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
