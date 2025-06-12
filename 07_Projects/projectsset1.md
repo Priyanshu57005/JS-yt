@@ -5,7 +5,7 @@
 
 # Solution code
 
-## project 1
+## Project 1
 
 ```javascript
 console.log("priyanshu")
@@ -55,5 +55,18 @@ form.addEventListener('submit', function (e) {
     results.innerHTML = `<span>${bmi}</span>`;
   }
 });
+
+```
+
+## Project 3
+
+```
+const clock = document.getElementById('clock')
+// document.querySelector('#clock')
+
+setInterval(function() {
+  let date = new Date();
+clock.innerHTML = date.toLocaleTimeString();
+}, 1000);
 
 ```
