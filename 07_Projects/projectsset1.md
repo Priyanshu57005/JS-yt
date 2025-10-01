@@ -5,7 +5,7 @@
 
 # Solution code
 
-## Project 1
+## Project 1 : Color Change
 
 ```javascript
 console.log("priyanshu")
